@@ -1,0 +1,28 @@
+spring:
+    #添加Thymeleaf配置
+    thymeleaf:
+        cache: false
+        prefix: classpath:/templates/
+        suffix: .html
+        mode: HTML5
+        encoding: UTF-8
+        content-type: text/html
+    redis:
+      host: 192.168.254.130
+      port: 6379
+      #    password: 123456
+      database: 10
+      connect-timeout: 10000ms
+
+server:
+    port: 8885
+wechat:
+    interface:
+     config:
+        token: chattoken
+        EncodingAESKey: 1ITfPtkd20vJx5lt6hORfSOgLHjwmp8RO6cLrliJHlU
+    appid: wx80da8c15fb1a6558
+    appsecret: 6c860bf822583ff6790bfa0f6a386438
+
+
+
